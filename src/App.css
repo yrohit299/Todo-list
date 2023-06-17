@@ -1,0 +1,64 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+ul{
+  padding: 0px;
+}
+
+.inputTodo{
+  width: 100%;
+  height: 38px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  flex: 5;
+}
+
+.todoAddButton{
+  border: 1px solid #ccc;
+  flex: 1;
+  border-radius: 4px;
+}
+
+.addTodoContainer{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.liList{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #2eb299;
+  padding: 0.3rem;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+
+.actionButtons{
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+  font-size: 18px;
+  align-items: center;
+}
+
+.deleteButton{
+  color:#ff6978 ;
+}
+
+.deleteButton:hover{
+  color: #df1616 
+}
+
+.toggelButton{
+ color: #00ba00
+}
+
+.toggelButton:hover{
+  color: #196019;
+}
